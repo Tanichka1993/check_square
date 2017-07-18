@@ -19,3 +19,6 @@ difference = number_of_open_brackets - number_of_close_brackets
 result = sys.argv[1] + difference * ')'
 
 print(f'output : {result}')
+
+# s = sys.argv[1]
+# result = s + ')' * (s.count('(') - s.count(')'))
